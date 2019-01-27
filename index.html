@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>8 Puzzle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="welcome">
+        <div id="title">
+            8 Puzzle
+        </div>
+        <div id="info">
+            <p>CTIS - Web Technologies 1<br/>PROJECT<br/>Fall 2018</p>
+        </div>
+        <div class="button">
+            START
+        </div>
+    </div>
+    
+    <div id="choose" >
+        <div id="select">
+            Select an Image
+        </div>
+        <div id="images">
+            <img src="img/1.jpg" >
+            <img src="img/2.jpg" >
+            <img src="img/3.jpg" >
+        </div>
+        <div class="button" style="display:none">
+            Continue
+        </div>
+    </div>
+
+    <div id="game" style="display:none">
+    </div>
+    <div id="shuffle" style="display:none">
+        <span>Shuffle</span>
+        <select>
+            <option value="0">-- Shuffle Amount --</option>
+            <option value="3">3 Moves</option>
+            <option value="30">30 Moves</option>
+        </select>
+        <div class="button" style="display:none">
+                Select
+        </div>
+    </div>
+    <div id="solve" style="display:none">SOLVE THE PUZZLE NOW</div>
+    <div id="restart" style="display:none">F5 to restart</div>
+    <div id="end" style="display:none">Congratulations!</div>
+</body>
+</html>

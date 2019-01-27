@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {margin: 0; padding: 0;}
+
+body > div {
+    display: none;
+    width: 600px;
+    margin: 80px auto;
+}
+
+#welcome > div {
+    margin-top: 20px;
+}
+
+#choose {
+    position: relative;
+}
+
+#game {
+    width: 456px;
+    padding: 3px;
+    background: #bdc3c7;
+    position: relative;
+    display:flex;
+    left: -1000px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#shuffle {
+    position: relative;
+    left: -1000px;
+    color: #34495e;
+    text-align: center;
+    margin-top: 0;
+}
+
+#solve {
+    margin-top: 0;
+    color: #34495e;
+    font-family: 'Quicksand';
+    font-size: 0px;
+    text-align: center;
+}
+
+span {
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+
+#choose > div {
+    margin-top: 50px;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 72px;
+    color: #34495e;
+}
+
+#info {
+    border-top: 1px #34495e solid;
+    border-bottom: 1px #34495e solid;
+    height: 200px;
+}
+
+#info p {
+    font-family: 'Quicksand';
+    font-size: 24px;
+    color: #34495e;
+    line-height: 60px;
+    text-align: center;
+}
+
+.button {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    width: 80px;
+    border: 1px #34495e solid;
+    border-radius: 8px;
+    font-family: 'Quicksand';
+    font-size: 24px;
+    color: #34495e;
+}
+
+#choose > .button {
+    width: 100px;
+}
+
+#select {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 48px;
+    color: #34495e;
+}
+
+select {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#images {
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 10px;
+    margin: 0 40px;
+    width:100px;
+    height: 100px;
+    transition: all ease 0.5s;
+    opacity: 0.6;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.piece {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 1px;
+    position: relative;
+}
+
+#end {
+    font-family: 'Quicksand';
+    font-size: 36px;
+    color: black;
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+}
+
+#restart {
+    font-family: 'Quicksand';
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #34495e;
+}
